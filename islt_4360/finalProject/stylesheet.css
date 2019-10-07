@@ -135,6 +135,10 @@ h3 {
     color: black;
 }
 
+h4 {
+    color: deeppink
+}
+
 div.gallery {
     margin: 5px;
     float: inherit;
@@ -161,6 +165,13 @@ div.gallery img {
     padding: 10px;
     margin: 8px;
     box-shadow: 1px 1px 15px 1px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 div.desc {
@@ -254,9 +265,42 @@ div.about img {
 }
 
 .leftcolumn {
-    
+    float: left;
+    width: 75%;
 }
 
 .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: #fb92cc;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rightcard {
+    background-color: #06baae;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#post1 {
+    
+}
+
+#post2 {
+    
+}
+
+#post3 {
     
 }
